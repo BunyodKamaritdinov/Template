@@ -1,0 +1,145 @@
+.dashbord {
+    background: #F2F2F2;
+    height: 100vh;
+}
+.dashbord__main {
+}
+
+.dashbord__left {
+    margin-top: 94px;
+}
+.left__list {
+}
+.left__item-top {
+    width: 255px;
+    height: 137px;
+    padding: 62px 77px 24px 24px;
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 10px;
+}
+.mentor__title {
+    font-family: $jost;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+}
+.mentor__text {
+    font-family: $jost;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 24px;
+}
+.left__item-middle {
+    width: 255px;
+    height: 166px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+.all__ux {
+    padding: 24px 50px 24px 24px;
+}
+.all__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all__item {
+    margin-bottom: 14px;
+    padding: 5px 16px;
+    background: #F2F4FF;
+    border-radius: 10px; 
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #4661E6;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.all__item:active{
+    background: #4661E6;
+    color: #F2F4FF;
+  
+}
+.all__item:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #4661E6;
+}
+
+
+.left__item-button {
+    width: 255px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 19px 24px 24px 24px;
+    margin-top: 24px;
+}
+.roadmap__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top__title {
+    font-family: $jost;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+.roadmap__link {
+    font-family: $jost;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #4661E6;
+}
+.roadmap__button-main {
+    margin-top: 24px;
+}
+.planed__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.planed__text {
+    font-family: $jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+}
+.planed__text::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: $orange;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateX(-16px);
+}
+
+.planed__number {
+    font-family: $jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: right;
+    color: #647196;
+}
+// -------------------left-end-------------------
+.dashbord__right {
+
+}

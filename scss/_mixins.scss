@@ -1,40 +1,3 @@
-// Ro'yxatdagi stillarni olib tashlash
-
-@mixin reset-list {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-  }
-  
-  
-  // Psevdoelementdagi uchburchak
-  
-  @mixin triangle ($direction, $size: 15px, $color: black) {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    content: "";
-  
-    @if $direction == "up" {
-      border-left: $size solid transparent;
-      border-right: $size solid transparent;
-      border-bottom: $size solid $color;
-    } @else if $direction == "down" {
-      border-left: $size solid transparent;
-      border-right: $size solid transparent;
-      border-top: $size solid $color;
-    } @else if $direction == "left" {
-      border-top: $size solid transparent;
-      border-bottom: $size solid transparent;
-      border-right: $size solid $color;
-    } @else if $direction == "right" {
-      border-top: $size solid transparent;
-      border-bottom: $size solid transparent;
-      border-left: $size solid $color;
-    }
-  }
-  
-  
   // Media so'rovlar uchun mixin
   
   @mixin breakpoint-down ($screen-width) {
@@ -54,4 +17,84 @@
       @content;
     }
   }
+
+  @mixin button1{
+    padding: 13px 0px 11px 0px;
+    font-family: $jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #F2F4FE;
+    background: #AD1FEA;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+  
+    &:hover {
+       background-color: #C75AF6;
+       color: #F2F4FE;
+    }
+  }
+
+  @mixin button2{
+    padding: 13px 0px 11px 0px;
+    font-family: $jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #F2F4FE;
+    background: #4661E6;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+
+  
+    &:hover {
+       background-color: #7C91F9;
+       color: #F2F4FE;
+  }
+  }
+  
+  @mixin button3{
+    padding: 13px 0px 11px 0px;
+    font-family: $jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #F2F4FE;
+    background: #3A4374;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+
+  
+    &:hover {
+       background-color: #656EA3;
+       color: #F2F4FE;
+  }
+  }
+
+  @mixin button4{
+    padding: 13px 0px 11px 0px;
+    font-family: $jost;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #F2F4FE;
+    background: #D73737;
+    border-radius: 10px;
+    transition: all 0.1s ease;
+
+  
+    &:hover {
+       background-color: #E98888;
+       color: #F2F4FE;
+  }
+  }
+
   
