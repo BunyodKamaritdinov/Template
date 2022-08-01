@@ -1,0 +1,122 @@
+.section__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 410px;
+    height: 379px;
+    margin-left: 209px;
+    margin-top: 135px;
+    padding-bottom: 239px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 214px;
+}
+.section__title {
+    font-family: 'Jost';
+    font-size: 24px;
+    margin-top: 59px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 35px;
+    width: 276px;
+    color: #3A4374;
+}
+.section__image{
+    height: 136px;
+    width: 129px;
+    opacity: 1;
+}
+.section__paragraph {
+    font-family: 'Jost';
+    text-align: center;
+    font-weight: 400;
+    font-size: 400;
+    margin-top: 16px;
+    line-height: 24px;
+    height: 46px;
+    width: 410px;
+}
+.section__feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #AD1FEA;;
+    margin-top: 48px;
+    height: 44px;
+    width: 158px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+@media only screen and (max-width:768px){
+    .dashbord__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left__list{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: 39px;
+    }
+    .left__item-top,.left__item-middle,.left__item-button{
+        width: 223px;
+        height: 178px;
+    }
+    .left__item-top{
+        margin-top: 25px;
+    }
+
+    .home__nav{
+        width: 689;
+    }
+  
+    .home__feedback{
+        max-width: 689px;
+        width: 100%;
+        margin-left: 39px;
+    }
+    .section__main{
+        margin-left: 80px;
+    }
+}
+
+
+@media only screen and (max-width:375px){
+
+    .left__item-middle,.left__item-button{
+        display: none;
+    }
+    .left__item-top{
+        width: 375px;
+        margin-left: 24px;
+    }
+    .home__nav-suggest{
+        display: none;
+    }
+
+    .left__list{
+        width: 375px;
+        
+    }
+    .home__nav{
+        width: 375px;
+        margin-left: 90px;
+    }
+   
+    .home__feedback{
+        max-width: 327px;
+        height: 200px;
+        margin-right: 48px;
+    }
+    .home__sort{
+        margin-left: 24px;
+    }
+    .home__feedback-link{
+        margin-right: 24px;
+    }
+}
